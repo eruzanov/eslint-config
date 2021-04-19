@@ -1,0 +1,37 @@
+{
+    "name": "@eruzanov/eslint-config",
+    "version": "1.0.0",
+    "description": "A config for frontend apps",
+    "main": "index.js",
+    "repository": "https://github.com/eruzanov/eslint-config.git",
+    "keywords": [
+        "javascript",
+        "ecmascript",
+        "eslint",
+        "lint",
+        "config",
+        "prettier"
+    ],
+    "peerDependencies": {
+        "@babel/eslint-parser": "^7.13.14",
+        "eslint": "^7.24.0",
+        "eslint-config-airbnb": "^18.2.1",
+        "eslint-config-prettier": "^8.2.0",
+        "eslint-plugin-jsx-a11y": "^6.4.1",
+        "eslint-plugin-prettier": "^3.4.0",
+        "eslint-plugin-react": "^7.23.2",
+        "eslint-plugin-react-hooks": "^4.2.0",
+        "prettier": "^2.2.1"
+    },
+    "devDependencies": {
+        "@babel/eslint-parser": "^7.13.14",
+        "eslint": "^7.24.0",
+        "eslint-config-airbnb": "^18.2.1",
+        "eslint-config-prettier": "^8.2.0",
+        "eslint-plugin-jsx-a11y": "^6.4.1",
+        "eslint-plugin-prettier": "^3.4.0",
+        "eslint-plugin-react": "^7.23.2",
+        "eslint-plugin-react-hooks": "^4.2.0",
+        "prettier": "^2.2.1"
+    }
+}

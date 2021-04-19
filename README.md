@@ -2,14 +2,14 @@
 
 ## Установка
 
-`npm i -D git+https://gitlab.utair.ru/public-projects/utair-app-config.git`
+`npx install-peerdeps --dev @eruzanov/eslint-config`
 
 ## Подключениение конфигурации
 
-В **.eslintrc** в extends нужно добавить "utair-app-config"
+В **.eslintrc** в extends нужно добавить "@eruzanov/eslint-config"
 
 Пример:
 
     {
-        "extends": ["utair-app-config"]
+        "extends": ["@eruzanov/eslint-config"]
     }
